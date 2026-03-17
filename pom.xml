@@ -7,7 +7,7 @@
 
   <groupId>uz.asadbek</groupId>
   <artifactId>base-module</artifactId>
-  <version>1.0.0</version>
+  <version>0.0.1</version>
   <packaging>jar</packaging>
 
   <parent>
