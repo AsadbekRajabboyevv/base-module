@@ -19,10 +19,6 @@ import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 @EntityListeners(AuditingEntityListener.class)
 public abstract class BaseEntity {
 
-  @Id
-  @Column(name = "id")
-  private Long id;
-
   @CreatedDate
   @Column(name = "created_at", updatable = false)
   private LocalDateTime createdAt;
